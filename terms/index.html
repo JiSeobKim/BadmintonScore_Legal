@@ -7,13 +7,31 @@
     <link rel="stylesheet" href="../assets/style.css" />
   </head>
   <body>
-    <main class="container">
-      <section class="card">
-        <a class="back" href="../">← Legal 홈으로</a>
-        <h1>이용약관 (Terms of Service)</h1>
-        <p class="meta">Last updated: 2026-02-28</p>
+    <header class="site-header">
+      <nav class="site-nav">
+        <a class="brand" href="../">
+          <span class="brand-mark">B</span>
+          <span>BadmintonCount Legal</span>
+        </a>
+        <div class="nav-links">
+          <a href="../privacy/">개인정보처리방침</a>
+          <a href="../terms/">이용약관</a>
+        </div>
+      </nav>
+    </header>
 
-        <p>
+    <main class="container">
+      <article class="panel policy">
+        <a class="back-link" href="../">← Legal 홈으로</a>
+        <div class="policy-header">
+          <div class="pill-row">
+            <span class="pill pill--primary">Terms of Service</span>
+            <span class="pill">Last updated · 2026-02-28</span>
+          </div>
+          <h1>이용약관</h1>
+        </div>
+
+        <p class="lead">
           본 이용약관(이하 "약관")은 BadmintonCount(이하 "앱")의 사용 조건을 규정합니다. 앱을 설치하거나 사용하는 경우, 사용자는 본 약관에 동의한 것으로 간주됩니다.
         </p>
 
@@ -69,10 +87,14 @@
 
         <h2>10. 문의처</h2>
         <p>
-          개발자: Kim Ji Seob<br />
-          이메일: <a href="mailto:jiseob812@gmail.com">jiseob812@gmail.com</a>
+          <strong>개발자:</strong> Kim Ji Seob<br />
+          <strong>이메일:</strong> <a href="mailto:jiseob812@gmail.com">jiseob812@gmail.com</a>
         </p>
-      </section>
+      </article>
     </main>
+
+    <footer class="site-footer">
+      © 2026 BadmintonCount · <a href="../privacy/">개인정보처리방침 보기</a>
+    </footer>
   </body>
 </html>
